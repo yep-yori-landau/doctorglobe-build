@@ -1,0 +1,112 @@
+services:
+
+#########################
+####     svc_db     #####
+#########################
+ svc_db:
+  image: mysql:8.0
+  container_name: dg_db
+
+  ports:
+   - 3307:3306
+  expose:
+   - 3306
+
+  volumes:
+   - dg_mysql_data:/var/lib/mysql
+   - ./logs/db:/var/log
+   - ./DB/DOCTOR_GLOBE.sql:/docker-entrypoint-initdb.d/DOCTOR_GLOBE.sql
+
+  command: --default-authentication-plugin=mysql_native_password
+
+  environment:
+   MYSQL_PASSWORD: p@55word
+   MYSQL_ROOT_PASSWORD: p@55word
+   MYSQL_ROOT_HOST: '%'
+
+  healthcheck:
+   test: "exit 0"
+
+#########################
+######## dg-data ########
+#########################
+ dg-data:
+  image: dg-data
+  container_name: dg_data
+  restart: on-failure
+
+  depends_on:
+   svc_db:
+    condition: service_healthy
+
+  environment:
+   dgEnvTarget: docker
+
+  ports:
+   - 8080:8080
+
+  volumes:
+   - ./logs/svc:/tmp
+
+#########################
+###### dg-patient #######
+#########################
+ dg-patient:
+  image: dg-patient
+  container_name: dg_patient
+  restart: on-failure
+
+  depends_on:
+   - dg-data
+
+  environment:
+   dgEnvTarget: docker
+
+  ports:
+   - 8888:8080
+
+  volumes:
+   - ./logs/svc:/tmp
+
+#########################
+###### dg-doctor ########
+#########################
+ dg-doctor:
+  image: dg-doctor
+  container_name: dg_doctor
+  restart: on-failure
+
+  depends_on:
+   - dg-data
+
+  environment:
+   dgEnvTarget: docker
+
+  ports:
+   - 8081:8080
+
+  volumes:
+   - ./logs/svc:/tmp
+
+#########################
+##### dg-hospital #######
+#########################
+ dg-hospital:
+  image: dg-hospital
+  container_name: dg_hospital
+  restart: on-failure
+
+  depends_on:
+   - dg-data
+
+  environment:
+   dgEnvTarget: docker
+
+  ports:
+   - 8082:8080
+
+  volumes:
+   - ./logs/svc:/tmp
+
+volumes:
+ dg_mysql_data:

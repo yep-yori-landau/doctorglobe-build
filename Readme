@@ -1,0 +1,33 @@
+  1. Build WARs
+  ./data/buildWar.sh
+  ./patient/buildWar.sh
+  ./doctor/buildWar.sh
+  ./hospital/buildWar.sh
+
+  2. Build Docker images
+  docker build -t dg-data data/
+  docker build -t dg-patient patient/
+  docker build -t dg-doctor doctor/
+  docker build -t dg-hospital hospital/
+
+  3. Run docker compose
+  docker compose up
+  Or in the background:
+  docker compose up -d
+
+  4. Shut down and clean everything
+
+  Stop only (keeps DB data):
+  docker compose down
+
+  Stop + wipe the database volume (full reset):
+  docker compose down -v
+
+  Stop + wipe DB volume + remove built images:
+  docker compose down -v
+  docker rmi dg-data dg-patient
+
+Running:
+  - Patient → http://localhost:8888/patient
+  - Doctor → http://localhost:8081/doctor
+  - Hospital → http://localhost:8082/hospital
