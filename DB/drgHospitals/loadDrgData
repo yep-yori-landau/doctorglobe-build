@@ -1,0 +1,15 @@
+#cp  Medicare_DRG100_FY2013.csv DRG.csv
+#cp  Medicare_DRGALL_FY2014.csv DRG.csv
+#cp  Medicare_DRGALL_FY2015.csv DRG.csv
+cp  Medicare_DRGALL_FY2016.csv DRG.csv
+
+java -cp "../jars/*:drgLoader.jar" com.dg.drgdataloader.main.DrgLoader 
+
+echo "Manual entered data for hospitals that don't exist in the AHA file: website, lat, long and a matching hospital for USNEWS if exists"
+mysql -uroot -pp@55word < update_missing_aha_hospitals.sql
+
+echo "####  Make sure not to include this in Amazon, as photos need to be purchased !!!!"
+echo ""
+echo "update healthcareproviderphoto table to include default hospital photos"
+#####mysql -uroot -pp@55word < photo.sql
+

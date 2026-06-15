@@ -1,0 +1,9 @@
+echo "create patients"
+mysql -uroot -pp@55word < create_patient_and_company.sql
+
+#echo "Create Missing cities for dummy employees"
+#mysql -uroot -pp@55word < loadMissingCities.sql
+
+#echo "Enter All association related data from XML dat file"
+#java -cp "../jars/*" com.dg.employerdataloader.main.EmployerDataLoader test.xml
+

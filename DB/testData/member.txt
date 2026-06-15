@@ -1,0 +1,50 @@
+First Name|Last Name|State|City|Email
+#Dan|Cronin|NH|Hooksett|dcronin@cgibenefitsgroup.com
+#Bob|Gearhart Jr.|OH|Younstown|bobjr@dcwgrp.com
+Cathy|Aitken|Nashville|TN|caitken@corpbenusa.com
+Felipe|Barganier|Atlanta|GA|Fbarganier@gabint.com
+Murray|Bass|Corpus Christi|TX|mbass@bordenins.com
+Gary|Becker|Baltimore|MD|gary@beckerbenefit.com
+Paula|Beersdorf|St. Petersburg|FL|paulab@sunriskinc.com
+James|Blachek|Scranton|PA|jim@benegroup.net
+John|Clay|Somerset|KY|j.clay@bettersourcebenefits.com
+Dan|Cronin|Manchester|NH|dcronin@cgibenefitsgroup.com
+Allison|De Paoli|San Antonio|TX|acdepaoli@depaoliprofservices.com
+Kim|Eckelbarger|Tampa|FL|kim@tropicalbenefits.com
+Jeff|Fox|Indianapolis|IN|jfox@HJSpier.com
+Bob|Gearhart Sr.|Cleveland|OH|bobsr@dcwgrp.com
+Matt|Hansell|Naples|FL|m.hansell@bhhbenefits.com
+Ron|Hansell|Naples|FL|r.hansell@bhhbenefits.com
+Randy|Hansen|Everett|WA|randy@psgwa.com
+Jeff|Haudenschield|Scranton|PA|jeff@benegroup.net
+Mike|Hill|Grand Rapids|MI|mikeh@coldbrookins.com
+Lambert|Hsu|San Diego|CA|lambert@benefitpro.com
+Todd|Hudson|Wilimington|DE|todd@hudsonplanninggroup.com
+Bill|Hughes|Waco|TX|bill@benafix.com
+Beth|Johnson|Sikeston|MO|bjohnson@mitchellinsinc.com
+Mark|Krogulski|Raleigh|NC|mark@e3-strategy.com
+Craig|Lack|San Juan Capistrano|CA|craig@energiusa.com
+Deke|Lape|Sikeston|MO|dlape@mitchellinsinc.com
+Kevin|Lewis|Dallas|TX|klewis@tailormadebenefits.com
+Taylor|Lindsey|Richlands|VA|taylor@ebc-inc.net
+Michael|Lutz|Detroit|MI|m.lutz@cbgmi.com
+Braden|Monaco|Boston|MA|braden@bluehorizonbenefits.com
+Andy|Neary|Denver|CO|aneary@theolsongroup.net
+Tim|Olson|Omaha|NE|tolson@theolsongroup.net
+Stefanie|Pigeon|Burlington|VT|stefanie@affiliatedassoc.com
+Karin|Rettger|Chicago|IL|krettger@prgresource.com
+Derek|Rine|Akron|OH|derek@davidrineinsurance.com
+Mick|Rodgers|Boston|MA|mrodgers@axialbg.com
+Marcy|Sanders|Atlanta|GA|sanders.marcy@gmail.com
+John|Sbrocco|Madison|NJ|john@questige.com
+Redmond|Sherwood|Los Angeles|CA|redmond@division3.org
+Dawn|Sheue|Jackson Hole|WY|dawn@summitinsurance.org
+Eric|Silverman|Baltimore|MD|Esilverman@silvermanbenefits.com
+Robert|Slayton|Naperville|IL|robert@slaytonins.com
+Mark|Snider|Columbus|OH|mark@sniderfullerstroh.com
+Tom|Stautberg|Cincinnati|OH|tom@stautberg.com
+Trey|Taylor|Valdosta|GA|trey@taylorins.com
+Dan|Thompson|Naples|FL|DThompson@gulfshoreinsurance.com
+Brian|Tolbert|Nashville|TN|brian.tolbert@bernardhealth.com
+Nolan|Waterfall|Los Angeles|CA|nolan.waterfall@qandun.com
+Pete|Scruggs|Battleground|WA|pscruggs@gsirm.com

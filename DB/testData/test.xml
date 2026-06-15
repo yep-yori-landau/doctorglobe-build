@@ -1,0 +1,1110 @@
+<?xml version="1.0"?>
+
+<partner name="Claim DOC" version="1.0"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="
+		    http://www.doctorglobe.com
+		    http://www.doctorglobe.com/xsd/partner.xsd
+		    ">
+
+  <customer_support_personnel>
+    <person>
+      <first_name>Ben1_first</first_name>
+      <last_name>Ben1_last</last_name>
+      <email>ben1@doctorglobe.com</email>
+      <phone>11111111</phone>
+    </person>
+    <person>
+      <first_name>Ben2_first</first_name>
+      <last_name>Ben2_last</last_name>
+      <email>ben2@doctorglobe.com</email>
+      <phone>22222222</phone>
+    </person>
+    <person>
+      <first_name>Ben3_first</first_name>
+      <last_name>Ben3_last</last_name>
+      <email>ben3@doctorglobe.com</email>
+      <phone>33333333</phone>
+    </person>
+  </customer_support_personnel>
+
+  <employers>
+    <employer>
+      <name>United Airlines</name>
+      <ein>some_EIN_value 1</ein>
+      <address_1>604 York Av. ap. #3</address_1>
+      <city>New York</city>
+      <state_code>NY</state_code>
+      <zip_code>123456</zip_code>
+      <phone>1234</phone>
+      <email>ylandau1@doctorglobe.com</email>
+      <employee_bonus_percentage>10</employee_bonus_percentage>
+      <insurance_plans>
+	<plan>
+	  <name>insurance program 1</name>
+	  <type>PPO</type>
+	  <annual_oop>6000</annual_oop>
+	  <deductible>1000</deductible>
+	  <co_insurance_percentage>20</co_insurance_percentage>
+	  <hsa_compatible>false</hsa_compatible>
+	  <employees>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Jackelyn</first_name>
+	      <last_name>Boeck</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111111</employee_id>
+	      <gender>F</gender>
+	      <email>ylandau01@doctorglobe.com</email>
+	      <address>212 S. Palm Dr</address>
+	      <city>Beverly Hills</city>
+	      <state_code>CA</state_code>
+	      <zip_code>90212</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	      <dependents>
+		<dependent>
+		  <title>Mr.</title>
+		  <first_name>Antionette</first_name>
+		  <last_name>Treese</last_name>
+		  <date_of_birth>1990-04-22</date_of_birth>
+		  <gender>F</gender>
+		  <email>ylandau02@doctorglobe.com</email>
+		  <address>212 S. Palm Dr</address>
+		  <city>Beverly Hills</city>
+		  <state_code>CA</state_code>
+		  <zip_code>90212</zip_code>
+		</dependent>
+		<dependent>
+		  <title>Mr.</title>
+		  <first_name>Shirely</first_name>
+		  <last_name>Preble</last_name>
+		  <date_of_birth>1990-04-22</date_of_birth>
+		  <gender>F</gender>
+		  <email>ylandau03@doctorglobe.com</email>
+		  <address>212 S. Palm Dr</address>
+		  <city>Beverly Hills</city>
+		  <state_code>CA</state_code>
+		  <zip_code>90212</zip_code>
+		</dependent>
+	      </dependents>
+	    </employee>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Caroline</first_name>
+	      <last_name>Julio</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111112</employee_id>
+	      <gender>U</gender>
+	      <email>ylandau7@doctorglobe.com</email>
+	      <address>1607 23rd Street NW</address>
+	      <city>Washington</city>
+	      <state_code>DC</state_code>
+	      <zip_code>20008</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Aaron</first_name>
+	      <last_name>Borquez</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111113</employee_id>
+	      <gender>M</gender>
+	      <address>664 Dickens Road</address>
+	      <city>Lilburn</city>
+	      <state_code>GA</state_code>
+	      <zip_code>30047</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	  </employees>
+	</plan>
+	<plan>
+	  <name>insurance program 2</name>
+	  <type>PPO</type>
+	  <annual_oop>6000</annual_oop>
+	  <deductible>1000</deductible>
+	  <co_insurance_percentage>20</co_insurance_percentage>
+	  <hsa_compatible>false</hsa_compatible>
+	  <employees>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Noemi</first_name>
+	      <last_name>Crider</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111114</employee_id>
+	      <gender>M</gender>
+	      <email>ylandau8@doctorglobe.com</email>
+	      <address>9520 Faires Farm Road</address>
+	      <city>Charlotte</city>
+	      <state_code>NC</state_code>
+	      <zip_code>28213</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Malissa</first_name>
+	      <last_name>Redondo</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111115</employee_id>
+	      <gender>M</gender>
+	      <address>526 Superior Avenue</address>
+	      <city>Cleveland</city>
+	      <state_code>OH</state_code>
+	      <zip_code>44114</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Pasquale</first_name>
+	      <last_name>Stjacques</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111116</employee_id>
+	      <gender>M</gender>
+	      <address>2312 Dorrington Dr.</address>
+	      <city>Dallas</city>
+	      <state_code>TX</state_code>
+	      <zip_code>75228</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	  </employees>
+	</plan>
+	<plan>
+	  <name>insurance program 3</name>
+	  <type>PPO</type>
+	  <annual_oop>6000</annual_oop>
+	  <deductible>1000</deductible>
+	  <co_insurance_percentage>20</co_insurance_percentage>
+	  <hsa_compatible>false</hsa_compatible>
+	  <employees>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Dewitt</first_name>
+	      <last_name>Bazaldua</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111117</employee_id>
+	      <gender>M</gender>
+	      <address>2026 Scott Street</address>
+	      <city>Hollywood</city>
+	      <state_code>FL</state_code>
+	      <zip_code>33020</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Joni</first_name>
+	      <last_name>Silk</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111118</employee_id>
+	      <gender>M</gender>
+	      <address>318 Canino Road</address>
+	      <city>Houston</city>
+	      <state_code>TX</state_code>
+	      <zip_code>77076</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Theodore</first_name>
+	      <last_name>Moak</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111119</employee_id>
+	      <gender>M</gender>
+	      <address>200. st 38th Street</address>
+	      <city>New York</city>
+	      <state_code>NY</state_code>
+	      <zip_code>10016</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	  </employees>
+	</plan>
+	<plan>
+	  <name>insurance program 4</name>
+	  <type>HMO</type>
+	  <annual_oop>6000</annual_oop>
+	  <deductible>1000</deductible>
+	  <co_insurance_percentage>20</co_insurance_percentage>
+	  <hsa_compatible>false</hsa_compatible>
+	  <employees>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Fidela</first_name>
+	      <last_name>Cary</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111120</employee_id>
+	      <gender>M</gender>
+	      <address>77 Massachusetts Avenue</address>
+	      <city>Cambridge</city>
+	      <state_code>MA</state_code>
+	      <zip_code>02139</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Ariel</first_name>
+	      <last_name>Alfaro</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111121</employee_id>
+	      <gender>M</gender>
+	      <address>1907 Spruce Street</address>
+	      <city>Philadelphia</city>
+	      <state_code>PA</state_code>
+	      <zip_code>19103-5732</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Hortencia</first_name>
+	      <last_name>Sartain</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111122</employee_id>
+	      <gender>M</gender>
+	      <address>737 Michigan Avenue</address>
+	      <city>Chicago</city>
+	      <state_code>IL</state_code>
+	      <zip_code>60611</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	  </employees>
+	</plan>
+      </insurance_plans>
+    </employer>
+    <employer>
+      <name>Hilton</name>
+      <ein>some_EIN_value 2</ein>
+      <address_1>7280 N. Caldwell Avenue</address_1>
+      <city>Niles</city>
+      <state_code>IL</state_code>
+      <zip_code>60714</zip_code>
+      <phone>1234</phone>
+      <email>ylandau2@doctorglobe.com</email>
+      <employee_bonus_percentage>10</employee_bonus_percentage>
+      <insurance_plans>
+	<plan>
+	  <name>insurance program 1</name>
+	  <type>HMO</type>
+	  <annual_oop>6000</annual_oop>
+	  <deductible>1000</deductible>
+	  <co_insurance_percentage>20</co_insurance_percentage>
+	  <hsa_compatible>false</hsa_compatible>
+	  <employees>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Yukiko</first_name>
+	      <last_name>Sayer</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111123</employee_id>
+	      <gender>M</gender>
+	      <email>ylandau9@doctorglobe.com</email>
+	      <address>777 Woodward Avenue</address>
+	      <city>Detroit</city>
+	      <state_code>MI</state_code>
+	      <zip_code>48226</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Jannette</first_name>
+	      <last_name>Brazelton</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111124</employee_id>
+	      <gender>M</gender>
+	      <address>1250 East Moore Lake Drive</address>
+	      <city>Minneapolis (Fridley)</city>
+	      <state_code>MN</state_code>
+	      <zip_code>55432</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Antone</first_name>
+	      <last_name>Dazey</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111125</employee_id>
+	      <gender>M</gender>
+	      <address>4761 Industrial Pkwy</address>
+	      <city>Indianapolis</city>
+	      <state_code>IN</state_code>
+	      <zip_code>46226</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	  </employees>
+	</plan>
+	<plan>
+	  <name>insurance program 2</name>
+	  <type>PPA</type>
+	  <annual_oop>6000</annual_oop>
+	  <deductible>1000</deductible>
+	  <co_insurance_percentage>20</co_insurance_percentage>
+	  <hsa_compatible>false</hsa_compatible>
+	  <employees>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Carla</first_name>
+	      <last_name>Stefani</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111126</employee_id>
+	      <gender>M</gender>
+	      <address>11766 Wilshire Blvd.</address>
+	      <city>Los Angeles</city>
+	      <state_code>CA</state_code>
+	      <zip_code>90025</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Sharri</first_name>
+	      <last_name>Moshier</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111127</employee_id>
+	      <gender>M</gender>
+	      <address>26050 Kay Ave.</address>
+	      <city>Hayward</city>
+	      <state_code>CA</state_code>
+	      <zip_code>94545</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Janene</first_name>
+	      <last_name>Ivie</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111128</employee_id>
+	      <gender>M</gender>
+	      <address>1350 Red Rock Street</address>
+	      <city>Las Vegas</city>
+	      <state_code>NV</state_code>
+	      <zip_code>89146</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	  </employees>
+	</plan>
+	<plan>
+	  <name>insurance program 3</name>
+	  <type>HMO</type>
+	  <annual_oop>6000</annual_oop>
+	  <deductible>1000</deductible>
+	  <co_insurance_percentage>20</co_insurance_percentage>
+	  <hsa_compatible>false</hsa_compatible>
+	  <employees>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Lenna</first_name>
+	      <last_name>Kuta</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111129</employee_id>
+	      <gender>M</gender>
+	      <address>5306 Walnut Ave.</address>
+	      <city>Sacramento</city>
+	      <state_code>CA</state_code>
+	      <zip_code>95841</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Jinny</first_name>
+	      <last_name>Thorne</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111130</employee_id>
+	      <gender>M</gender>
+	      <address>1151 SW Vermont</address>
+	      <city>Portland</city>
+	      <state_code>OR</state_code>
+	      <zip_code>97219</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Veda</first_name>
+	      <last_name>Weisel</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111131</employee_id>
+	      <gender>M</gender>
+	      <address>1265 East Fort Union Blvd.</address>
+	      <city>Cotton Wood Hights</city>
+	      <state_code>UT</state_code>
+	      <zip_code>84047</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	  </employees>
+	</plan>
+	<plan>
+	  <name>insurance program 4</name>
+	  <type>PPO</type>
+	  <annual_oop>6000</annual_oop>
+	  <deductible>1000</deductible>
+	  <co_insurance_percentage>20</co_insurance_percentage>
+	  <hsa_compatible>false</hsa_compatible>
+	  <employees>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Mika</first_name>
+	      <last_name>Shindler</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111132</employee_id>
+	      <gender>M</gender>
+	      <address>1029 Mitchell Ave</address>
+	      <city>Port Orchard</city>
+	      <state_code>WA</state_code>
+	      <zip_code>98366-4443</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Lelia</first_name>
+	      <last_name>Mcnett</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111133</employee_id>
+	      <gender>M</gender>
+	      <address>5528 11th Ct S</address>
+	      <city>Birmingham</city>
+	      <state_code>AL</state_code>
+	      <zip_code>35222-4020</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Florinda</first_name>
+	      <last_name>Poyer</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111134</employee_id>
+	      <gender>M</gender>
+	      <address>365 Eastern Close</address>
+	      <city>Yorktown Hts</city>
+	      <state_code>NY</state_code>
+	      <zip_code>10598-4921</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	  </employees>
+	</plan>
+      </insurance_plans>
+    </employer>
+    <employer>
+      <name>IBM</name>
+      <ein>some_EIN_value 3</ein>
+      <address_1>604 York Av. ap. #3</address_1>
+      <city>New York</city>
+      <state_code>NY</state_code>
+      <zip_code>123456</zip_code>
+      <phone>1234</phone>
+      <email>email2@doctorglobe.com</email>
+      <employee_bonus_percentage>10</employee_bonus_percentage>
+      <insurance_plans>
+	<plan>
+	  <name>insurance program 1</name>
+	  <type>PPO</type>
+	  <annual_oop>6000</annual_oop>
+	  <deductible>1000</deductible>
+	  <co_insurance_percentage>20</co_insurance_percentage>
+	  <hsa_compatible>false</hsa_compatible>
+	  <employees>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Maragaret</first_name>
+	      <last_name>Cooney</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111135</employee_id>
+	      <gender>M</gender>
+	      <address>114 W Hall Ave</address>
+	      <city>San Ysidro</city>
+	      <state_code>CA</state_code>
+	      <zip_code>92173-2515</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Edwina</first_name>
+	      <last_name>Veach</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111136</employee_id>
+	      <gender>M</gender>
+	      <address>819 N Loren Ave</address>
+	      <city>Azusa</city>
+	      <state_code>CA</state_code>
+	      <zip_code>91702-2212</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Jeramy</first_name>
+	      <last_name>Stansell</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111137</employee_id>
+	      <gender>M</gender>
+	      <address>2421 Washburn Way</address>
+	      <city>Klamath Falls</city>
+	      <state_code>OR</state_code>
+	      <zip_code>97603-4505</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	  </employees>
+	</plan>
+	<plan>
+	  <name>insurance program 2</name>
+	  <type>PPO</type>
+	  <annual_oop>6000</annual_oop>
+	  <deductible>1000</deductible>
+	  <co_insurance_percentage>20</co_insurance_percentage>
+	  <hsa_compatible>false</hsa_compatible>
+	  <employees>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Lien</first_name>
+	      <last_name>Osterman</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111138</employee_id>
+	      <gender>M</gender>
+	      <address>227 Spring Crest Dr</address>
+	      <city>Salisbury</city>
+	      <state_code>MD</state_code>
+	      <zip_code>21804-2805</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Jillian</first_name>
+	      <last_name>Murtagh</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111139</employee_id>
+	      <gender>M</gender>
+	      <address>5643 Picadilly Ln</address>
+	      <city>Portsmouth</city>
+	      <state_code>VA</state_code>
+	      <zip_code>23703-1649</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Donn</first_name>
+	      <last_name>Hentz</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111140</employee_id>
+	      <gender>M</gender>
+	      <address>329 Main St</address>
+	      <city>Duryea</city>
+	      <state_code>PA</state_code>
+	      <zip_code>18642-1026</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	  </employees>
+	</plan>
+	<plan>
+	  <name>insurance program 3</name>
+	  <type>PPO</type>
+	  <annual_oop>6000</annual_oop>
+	  <deductible>1000</deductible>
+	  <co_insurance_percentage>20</co_insurance_percentage>
+	  <hsa_compatible>false</hsa_compatible>
+	  <employees>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Jene</first_name>
+	      <last_name>Hecht</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111141</employee_id>
+	      <gender>M</gender>
+	      <address>1045 Taylor Ave</address>
+	      <city>Baltimore</city>
+	      <state_code>MD</state_code>
+	      <zip_code>21286-8316</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Travis</first_name>
+	      <last_name>Weatherhead</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111142</employee_id>
+	      <gender>M</gender>
+	      <address>1215 E Downey Ave</address>
+	      <city>Flint</city>
+	      <state_code>MI</state_code>
+	      <zip_code>48505-1626</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Rosella</first_name>
+	      <last_name>Gills</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111143</employee_id>
+	      <gender>M</gender>
+	      <address>801 Alabaster Ct</address>
+	      <city>Capitol Heights</city>
+	      <state_code>MD</state_code>
+	      <zip_code>20743-1872</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	  </employees>
+	</plan>
+	<plan>
+	  <name>insurance program 4</name>
+	  <type>PPO</type>
+	  <annual_oop>6000</annual_oop>
+	  <deductible>1000</deductible>
+	  <co_insurance_percentage>20</co_insurance_percentage>
+	  <hsa_compatible>false</hsa_compatible>
+	  <employees>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Josef</first_name>
+	      <last_name>Luft</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111144</employee_id>
+	      <gender>M</gender>
+	      <address>350 S Hamilton St 701 No 701</address>
+	      <city>Madison</city>
+	      <state_code>WI</state_code>
+	      <zip_code>53703-0000</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Diann</first_name>
+	      <last_name>Gott</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111145</employee_id>
+	      <gender>M</gender>
+	      <address>401 7th Ave S</address>
+	      <city>St Petersburg</city>
+	      <state_code>FL</state_code>
+	      <zip_code>33701-4818</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Basilia</first_name>
+	      <last_name>Villanueva</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111146</employee_id>
+	      <gender>M</gender>
+	      <address>2129 Venice Blvd</address>
+	      <city>Los Angeles</city>
+	      <state_code>CA</state_code>
+	      <zip_code>90006-5224</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	  </employees>
+	</plan>
+      </insurance_plans>
+    </employer>
+    <employer>
+      <name>Apple</name>
+      <ein>some_EIN_value 4</ein>
+      <address_1>604 York Av. ap. #3</address_1>
+      <city>New York</city>
+      <state_code>NY</state_code>
+      <zip_code>123456</zip_code>
+      <phone>1234</phone>
+      <email>ylandau3@doctorglobe.com</email>
+      <employee_bonus_percentage>10</employee_bonus_percentage>
+      <insurance_plans>
+	<plan>
+	  <name>insurance program 1</name>
+	  <type>PPO</type>
+	  <annual_oop>6000</annual_oop>
+	  <deductible>1000</deductible>
+	  <co_insurance_percentage>20</co_insurance_percentage>
+	  <hsa_compatible>false</hsa_compatible>
+	  <employees>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Cythia</first_name>
+	      <last_name>Bellis</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111147</employee_id>
+	      <gender>M</gender>
+	      <email>ylandau10@doctorglobe.com</email>
+	      <address>244 Main St</address>
+	      <city>Ansonia</city>
+	      <state_code>CT</state_code>
+	      <zip_code>06401-1859</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Brenda</first_name>
+	      <last_name>Hollier</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111148</employee_id>
+	      <gender>M</gender>
+	      <address>7005 N Robinson Ave</address>
+	      <city>Oklahoma City</city>
+	      <state_code>OK</state_code>
+	      <zip_code>73116-9044</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Normand</first_name>
+	      <last_name>Wayt</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111149</employee_id>
+	      <gender>M</gender>
+	      <address>20 American Legion Dr</address>
+	      <city>Manchester</city>
+	      <state_code>CT</state_code>
+	      <zip_code>06040-4252</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	  </employees>
+	</plan>
+	<plan>
+	  <name>insurance program 2</name>
+	  <type>PPO</type>
+	  <annual_oop>6000</annual_oop>
+	  <deductible>1000</deductible>
+	  <co_insurance_percentage>20</co_insurance_percentage>
+	  <hsa_compatible>false</hsa_compatible>
+	  <employees>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Dara</first_name>
+	      <last_name>Burda</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111150</employee_id>
+	      <gender>M</gender>
+	      <address>1724 W Main St</address>
+	      <city>Lake Geneva</city>
+	      <state_code>WI</state_code>
+	      <zip_code>53147-1652</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Leeanna</first_name>
+	      <last_name>Morley</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111151</employee_id>
+	      <gender>M</gender>
+	      <address>72 Kensington Rd</address>
+	      <city>San Anselmo</city>
+	      <state_code>CA</state_code>
+	      <zip_code>94960-2921</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Viviana</first_name>
+	      <last_name>Liss</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111152</employee_id>
+	      <gender>M</gender>
+	      <address>133 Railroad St</address>
+	      <city>Butler</city>
+	      <state_code>GA</state_code>
+	      <zip_code>31006-5250</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	  </employees>
+	</plan>
+	<plan>
+	  <name>insurance program 3</name>
+	  <type>PPO</type>
+	  <annual_oop>6000</annual_oop>
+	  <deductible>1000</deductible>
+	  <co_insurance_percentage>20</co_insurance_percentage>
+	  <hsa_compatible>false</hsa_compatible>
+	  <employees>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Breana</first_name>
+	      <last_name>Barco</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111153</employee_id>
+	      <gender>M</gender>
+	      <address>1440 S Walnut Ave</address>
+	      <city>Freeport</city>
+	      <state_code>IL</state_code>
+	      <zip_code>61032-6408</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Roma</first_name>
+	      <last_name>Radice</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111154</employee_id>
+	      <gender>M</gender>
+	      <address>825 7th St</address>
+	      <city>Modesto</city>
+	      <state_code>CA</state_code>
+	      <zip_code>95354-3414</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Orlando</first_name>
+	      <last_name>Pirtle</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111155</employee_id>
+	      <gender>M</gender>
+	      <address>495 Cambridge Ct</address>
+	      <city>Lebanon</city>
+	      <state_code>OH</state_code>
+	      <zip_code>45036-1529</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	  </employees>
+	</plan>
+	<plan>
+	  <name>insurance program 4</name>
+	  <type>PPO</type>
+	  <annual_oop>6000</annual_oop>
+	  <deductible>1000</deductible>
+	  <co_insurance_percentage>20</co_insurance_percentage>
+	  <hsa_compatible>false</hsa_compatible>
+	  <employees>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Deonna</first_name>
+	      <last_name>Addington</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111156</employee_id>
+	      <gender>M</gender>
+	      <address>104 Pendleton Pl</address>
+	      <city>Staten Island</city>
+	      <state_code>NY</state_code>
+	      <zip_code>10301-2241</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Gema</first_name>
+	      <last_name>Schnieders</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111157</employee_id>
+	      <gender>M</gender>
+	      <address>1035 Granada Ave</address>
+	      <city>Merritt Is</city>
+	      <state_code>FL</state_code>
+	      <zip_code>32952-5037</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Lyla</first_name>
+	      <last_name>Motton</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111158</employee_id>
+	      <gender>M</gender>
+	      <address>1228 45th St</address>
+	      <city>Brooklyn</city>
+	      <state_code>NY</state_code>
+	      <zip_code>11219-2005</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	  </employees>
+	</plan>
+      </insurance_plans>
+    </employer>
+    <employer>
+      <name>Facebook</name>
+      <ein>some_EIN_value 5</ein>
+      <address_1>604 York Av. ap. #3</address_1>
+      <city>New York</city>
+      <state_code>NY</state_code>
+      <zip_code>123456</zip_code>
+      <phone>1234</phone>
+      <email>email4@doctorglobe.com</email>
+      <employee_bonus_percentage>10</employee_bonus_percentage>
+      <insurance_plans>
+	<plan>
+	  <name>insurance program 1</name>
+	  <type>PPO</type>
+	  <annual_oop>6000</annual_oop>
+	  <deductible>1000</deductible>
+	  <co_insurance_percentage>20</co_insurance_percentage>
+	  <hsa_compatible>false</hsa_compatible>
+	  <employees>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Jackelyn</first_name>
+	      <last_name>Boeck</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111159</employee_id>
+	      <gender>M</gender>
+	      <address>3760 8th Ave</address>
+	      <city>San Diego</city>
+	      <state_code>CA</state_code>
+	      <zip_code>92103-4305</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Antionette</first_name>
+	      <last_name>Treese</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111160</employee_id>
+	      <gender>M</gender>
+	      <address>12622 Chiswick Rd</address>
+	      <city>Houston</city>
+	      <state_code>TX</state_code>
+	      <zip_code>77047-2006</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Shirely</first_name>
+	      <last_name>Preble</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111161</employee_id>
+	      <gender>M</gender>
+	      <address>100 View St</address>
+	      <city>Mountain View</city>
+	      <state_code>CA</state_code>
+	      <zip_code>94041-1374</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	  </employees>
+	</plan>
+	<plan>
+	  <name>insurance program 2</name>
+	  <type>PPO</type>
+	  <annual_oop>6000</annual_oop>
+	  <deductible>1000</deductible>
+	  <co_insurance_percentage>20</co_insurance_percentage>
+	  <hsa_compatible>false</hsa_compatible>
+	  <employees>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Caroline</first_name>
+	      <last_name>Julio</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111162</employee_id>
+	      <gender>M</gender>
+	      <address>3014 Mccloud Cir</address>
+	      <city>Sarasota</city>
+	      <state_code>FL</state_code>
+	      <zip_code>34234-6330</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Aaron</first_name>
+	      <last_name>Borquez</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111163</employee_id>
+	      <gender>M</gender>
+	      <address>75 Garfield St</address>
+	      <city>Cambridge</city>
+	      <state_code>MA</state_code>
+	      <zip_code>02138-1801</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Noemi</first_name>
+	      <last_name>Crider</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111164</employee_id>
+	      <gender>M</gender>
+	      <address>330 W Broadway</address>
+	      <city>San Diego</city>
+	      <state_code>CA</state_code>
+	      <zip_code>92101-3827</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	  </employees>
+	</plan>
+	<plan>
+	  <name>insurance program 3</name>
+	  <type>PPO</type>
+	  <annual_oop>6000</annual_oop>
+	  <deductible>1000</deductible>
+	  <co_insurance_percentage>20</co_insurance_percentage>
+	  <hsa_compatible>false</hsa_compatible>
+	  <employees>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Malissa</first_name>
+	      <last_name>Redondo</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111165</employee_id>
+	      <gender>M</gender>
+	      <address>2223 Vera Ave</address>
+	      <city>Redwood City</city>
+	      <state_code>CA</state_code>
+	      <zip_code>94061-1361</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Pasquale</first_name>
+	      <last_name>Stjacques</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111166</employee_id>
+	      <gender>M</gender>
+	      <address>145a Lincoln Sq</address>
+	      <city>Urbana</city>
+	      <state_code>IL</state_code>
+	      <zip_code>61801-3442</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Dewitt</first_name>
+	      <last_name>Bazaldua</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111167</employee_id>
+	      <gender>M</gender>
+	      <address>7217 Watson Rd Unit 190481</address>
+	      <city>Saint Louis</city>
+	      <state_code>MO</state_code>
+	      <zip_code>63119-5162</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	  </employees>
+	</plan>
+	<plan>
+	  <name>insurance program 4</name>
+	  <type>PPO</type>
+	  <annual_oop>6000</annual_oop>
+	  <deductible>1000</deductible>
+	  <co_insurance_percentage>20</co_insurance_percentage>
+	  <hsa_compatible>false</hsa_compatible>
+	  <employees>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Joni</first_name>
+	      <last_name>Silk</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111168</employee_id>
+	      <gender>M</gender>
+	      <address>929 E Centre Ave</address>
+	      <city>Portage</city>
+	      <state_code>MI</state_code>
+	      <zip_code>49002-5571</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Theodore</first_name>
+	      <last_name>Moak</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111169</employee_id>
+	      <gender>M</gender>
+	      <address>233 Bluemont Dr</address>
+	      <city>West Mifflin</city>
+	      <state_code>PA</state_code>
+	      <zip_code>15122-2504</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	    <employee>
+	      <title>Mr.</title>
+	      <first_name>Fidela</first_name>
+	      <last_name>Cary</last_name>
+	      <date_of_birth>1990-04-22</date_of_birth>
+	      <employee_id>emp-11111170</employee_id>
+	      <gender>M</gender>
+	      <address>58 Pequot Ave</address>
+	      <city>New London</city>
+	      <state_code>CT</state_code>
+	      <zip_code>06320-0000</zip_code>
+	      <policy_id>2kk2k3444</policy_id>
+	    </employee>
+	  </employees>
+	</plan>
+      </insurance_plans>
+    </employer>
+  </employers>
+
+</partner>

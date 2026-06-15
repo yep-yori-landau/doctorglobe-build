@@ -1,0 +1,155 @@
+Treatment id | treatement name | specialty id | specialty name | method id | DRG codes separated by comma, first code is leading code
+1|Head (In-Scull) Vascular Surgery (Neurology)|1|Neurology|1|020,021,022
+2|Head Brain Complex Surgery (Neurology)|1|Neurology|1|023,024
+3|Head Brain Blood Vessels Surgery (Neurology)|1|Neurology|1|025,026,027
+4|Spinal Cord Surgery (Neurology)|1|Neurology|1|029,028,030
+5|Ventricular Shunt Brain Surgery (Neurology)|1|Neurology|1|033,031,032
+6|Dialation Of Carotid Artery (Neurology)|1|Neurology|1|036,034,035
+7|Head & Neck (Exclud Scull) Artery Surgery (Neurology)|1|Neurology|1|039,037,038
+8|Nead Nerve System Surgery (Neurology)|1|Neurology|1|41,40,42
+9|Orbital Eye Surgery (Ophthalmology)|2|Ophthalmology (Eye)|1|113,114
+10|Non-Orbital External Eye Surgery (Ophthalmology)|2|Ophthalmology (Eye)|1|115
+11|Inner Eye Surgery (Ophthalmology)|2|Ophthalmology (Eye)|1|116,117
+12|Major Head & Neck Surgery (Otolaryngology / ENT)|3|Otolaryngology (ENT)|1|129,130
+13|Face Or Scull Surgery (Otolaryngology / ENT)|3|Otolaryngology (ENT)|1|131,132
+14|Eer, Nose, Throat Or Mouth & Throat Surgery (ENT)|3|Otolaryngology (ENT)|1|133,134
+15|Sinus Or Temporal Surgery (Otolaryngology / ENT)|3|Otolaryngology (ENT)|1|135,136
+16|Mouth Surgery (Otolaryngology / ENT)|3|Otolaryngology (ENT)|1|137,138
+17|Saliva Gland Surgery (Otolaryngology / ENT)|3|Otolaryngology (ENT)|1|139
+18|Major Chest & Lungs Surgery|4|Chest & Lungs|1|164,163,165
+19|Other Respitatory System Surgery (Chest / Lungs)|4|Chest & Lungs|1|166,167,168
+20|Heart Assist System Implant (Cardiology)|5|Cardiology|1|215
+21|Heart Valve Surgery With Catheter (Cardiology)|5|Cardiology|1|218,216,217
+22|Heart Valve Surgery Without Catheter (Cardiology)|5|Cardiology|1|220,219,221
+23|Heart Defib Implant With Catheter & AMI/HF/SHOCK (Cardiology)|5|Cardiology|1|223,222
+24|Heart Defib Implant With Catheter (Cardiology)|5|Cardiology|1|225,224
+25|Heart Defib Implant Without Catheter (Cardiology)|5|Cardiology|1|227,226
+26|Other Heart And Chest Surgery (Cardiology)|5|Cardiology|1|229,228,230
+27|Heart Bypass With Ptca (Cardiology)|5|Cardiology|1|232,231
+28|Heart Bypass With Catheter (Cardiology)|5|Cardiology|1|234,233
+29|Heart Bypass Without Catheter (Cardiology)|5|Cardiology|1|235,236
+30|Cardiovascular Surgery (Heart)|5|Cardiology|1|238,237
+31|Lower Limb Amputation Due To Circular Disorder (Cardiology)|5|Cardiology|1|240,239,241
+32|Heart Pacemaker Implant (Cardiology)|5|Cardiology|1|243,242,244
+33|Heart Artery Dialation W Drug-Eluting Stent (Cardiology)|5|Cardiology|1|247,246
+34|Heart Artery Dialation With Non-Drug-Eluting Stent (Cardiology)|5|Cardiology|1|248,249
+35|Heart Artery Dialation Without A Stent (Cardiology)|5|Cardiology|1|250,251
+36|Pulmonary (Chest) Vascular Surgery (Cardiology)|5|Cardiology|1|253,252,254
+37|Upper Limb Amputation Due To Circular Disorder (Cardiology)|5|Cardiology|1|256,255,257
+38|Heart Pacemaker Replacement (Cardiology)|5|Cardiology|1|259,258
+39|Heart Pacemaker Revision (Cardiology)|5|Cardiology|1|261,260,262
+40|Vein Repair/Extraction/Excision/Insertion/Removal (Cardiology)|5|Cardiology|1|263
+41|Stomach, Esophagus, Or Duodenal Surgery (Gastroenterology)|6|Gastroenterology|1|327,326,328
+42|Major Small Or Large Bowel Surgery (Gastroenterology)|6|Gastroenterology|1|330,329,331
+43|Rectum Removal (Gastroenterology)|6|Gastroenterology|1|333,332,334
+44|Removal Of Scar Tissue In Belly Surgery (Gastroenterology)|6|Gastroenterology|1|336,335,337
+45|Complicated Appendix Removal (Gastroenterology)|6|Gastroenterology|1|340,338,339
+46|Non-Complicated Appendix Removal (Gastroenterology)|6|Gastroenterology|1|343,341,342
+47|Minor Small Or Large Bowel Surgery (Gastroenterology)|6|Gastroenterology|1|345,344,346
+48|Rectum Or Anus Surgery (Gastroenterology)|6|Gastroenterology|1|348,347,349
+49|Inguinal & Femoral Hernia (Gastroenterology)|6|Gastroenterology|1|350,351,352
+50|Hernia Except Inguinal & Femoral (Gastroenterology)|6|Gastroenterology|1|354,353,355
+51|Other Digestive System Surgery (Gastroenterology)|6|Gastroenterology|1|357,356,358
+52|Pancreas, Liver & Shunt Surgery (Hepatobiliary)|7|Liver & Pancreas|1|406,405,407
+53|Liver & Gallbladder Surgery (Hepatobiliary)|7|Liver & Pancreas|1|409,408,410
+54|Gallbladder Removal With C.D.E. (Hepatobiliary)|7|Liver & Pancreas|1|411,412,413
+55|Non-Laparoscopic Gallbladder Removal W/O C.D.E. (Hepatobiliary)|7|Liver & Pancreas|1|414,415,416
+56|Laparoscopic Gallbladder Removal W/O C.D.E. (Hepatobiliary)|7|Liver & Pancreas|1|418,417,419
+57|Liver And Gallbladder Diagnostic Surgery (Hepatobiliary)|7|Liver & Pancreas|1|421,420,422
+58|Other Liver & Gallbladder Or Pancreas Surgery (Hepatobiliary)|7|Liver & Pancreas|1|423,424,425
+59|Combined Bilateral (2 Sided) Spinal Fusion (Orthopedics)|8|Orthopedic|1|454,453,455
+60|Non-Cervical Spinal Fusion With CURV/MALIG/INFEC (Orthopedics)|8|Orthopedic|1|458,456,457
+61|Non-Cervical Spinal Fusion (Orthopedics)|8|Orthopedic|1|460,459
+62|Bilateral (2 Sided) Or Multiple Hip Replacements (Orthopedics)|8|Orthopedic|1|462,461
+63|Bilateral (2 Sided) Or Multiple Knee Replacements (Orthopedics)|8|Orthopedic|1|462,461
+64|Skin Graft Surgery (Non Hand) For Tissue Disordr (Orthopedics)|8|Orthopedic|1|464,463,465
+65|Hip Replacement Revision (Orthopedics)|8|Orthopedic|1|467,466,468
+66|Knee Replacement Revision (Orthopedics)|8|Orthopedic|1|467,466,468
+67|Hip Replacement Or Reattachment (Orthopedics)|8|Orthopedic|1|470,469
+68|Knee Replacement Or Reattachment (Orthopedics)|8|Orthopedic|1|470,469
+69|Cervical Spinal Fusion (Orthopedics)|8|Orthopedic|1|473,471,472
+70|Amputation Due To Muscule, Bone, Or Tissue Disorder (Orthopedics)|8|Orthopedic|1|475,474,476
+71|Biopsy Of Bone, Muscle, Or Connecting Tissue (Orthopedics)|8|Orthopedic|1|478,477,479
+72|Non-Replacement Hip & Thigh Surgery (Orthopedics)|8|Orthopedic|1|481,480,482
+73|Shoulder / Elbow Replacement (Orthopedics)|8|Orthopedic|1|484,483
+74|Knee Surgery With PDX Of Infection (Orthopedics)|8|Orthopedic|1|485,486,487
+75|Knee Surgery Without PDX Of Infection (Orthopedics)|8|Orthopedic|1|489,488
+76|Non-Fusion Back Or Neck Surgery (Orthopedics)|8|Orthopedic|1|491,490
+77|Leg Surgery Except Hip, Foot, And Thigh (Orthopedics)|8|Orthopedic|1|493,492,494
+78|Removal Of Non-Hip Or Thigh Internal Fixed Devices (Orthopedics)|8|Orthopedic|1|496,495,497
+79|Removal Of Hip Or Thigh Internal Fixed Devices (Orthopedics)|8|Orthopedic|1|499,498
+80|Muscle Surgery (Orthopedics)|8|Orthopedic|1|501,500,502
+81|Foot Surgery (Orthopedics)|8|Orthopedic|1|504,503,505
+82|Major Thumb / Wrist Repair Surgery (Orthopedics)|8|Orthopedic|1|506
+83|Shoulder Or Elbow Surgery (Orthopedics)|8|Orthopedic|1|507,508
+84|Arthroscopy Of Any Joint (Orthopedics)|8|Orthopedic|1|509
+85|Shoulder/Elbow/Forarm Joint Repair Surgery (Orthopedics)|8|Orthopedic|1|512,510,511
+86|Minor Hand Or Wrist Repair Surgery (Orthopedics)|8|Orthopedic|1|513,514
+87|Other Muscle, Skeleton & Connective Tissue Surgery (Orthopedics)|8|Orthopedic|1|516,515,517
+88|Back & Neck Surgery Excluding Spinal Fusion (Orthopedics)|8|Orthopedic|1|520,518,519
+89|Removal Of Damaged Skin Or Foreign Object (Dermatology)|9|Dermatology|1|571,570,572
+90|Ulcer Or Cellulitis Skin Surgery (Dermatology)|9|Dermatology|1|573,574,575
+91|Non-Ulcer Or Cellulitis Skin Surgery (Dermatology)|9|Dermatology|1|576,577,578
+92|Breast Skin Surgery (Dermatology)|9|Dermatology|1|580,579,581
+93|Breast Removal For Cancerous Tumor (Mastectomy)|9|Dermatology|1|583,582
+94|Breast Biopsy (Dermatology)|9|Dermatology|1|585,584
+95|Adrenal Or Pituitary Gland Surgery (Endocrinology)|10|Endocrinology|1|614,615
+96|Metabolic Related Amputation Of A Lower Limb (Endocrinology)|10|Endocrinology|1|617,616,618
+97|Obesity Related Surgery (Endocrinology)|10|Endocrinology|1|621,619,620
+98|Matabolic Related Skin Repair Or Replacement (Endocrinology)|10|Endocrinology|1|623,622,624
+99|Thyroid, Parathyroid, Thyroglossal Surgery (Endocrinology)|10|Endocrinology|1|627,625,626
+100|Misc. Endocrin, Metabolic, Nutrition Surgery (Endocrinology)|10|Endocrinology|1|629,628,6230
+101|Kidney Transplant (Urology)|11|Urology|1|652
+102|Major Bladder Surgery (Urology)|11|Urology|1|654,653,655
+103|Tumor Related Kidney & Ureter Surgery (Urology)|11|Urology|1|658,656,657
+104|Non-Tumor Related Kidney & Ureter Surgery (Urology)|11|Urology|1|660,659,661
+105|Minor Bladder Surgery (Urology)|11|Urology|1|663,662,664
+106|Prostate Removal Surgery (Urology)|11|Urology|1|666,665,667
+107|Surgery Through The Urether (Urology)|11|Urology|1|669,668,670
+108|Uretheral (Urin Tube) Surgery (Urology)|11|Urology|1|671,672
+109|Other Kidney & Urinary Tract Surgery (Urology)|11|Urology|1|673,674,675
+110|Major Bladder/Prostate Surgery (Male)|12|Male Reproductive|1|708,707
+111|Pennis Surgery (Male)|12|Male Reproductive|1|710,709
+112|Testecles Surgery (Male)|12|Male Reproductive|1|711,712
+113|Prostate Removal Through Urether (Male)|12|Male Reproductive|1|714,713
+114|Male Reproductive System Surgery For Malignancy|12|Male Reproductive|1|716,715
+115|Male Reproductive System Surgery Non-Malignancy|12|Male Reproductive|1|717,718
+116|Hysterectomy (Gynecology)|13|Gynecology|1|734,735
+117|Uterine Surgery For Ovarian Malignancy (Gynecology)|13|Gynecology|1|738,736,737
+118|Uterine Surgery For Non-Ovarian Malignancy (Gynecology)|13|Gynecology|1|741,739,740
+119|Uterine & Adnexa Surgery For Non-Malignancy (Gynecology)|13|Gynecology|1|743,742
+120|Overies & Tubes Removal Surgery (Gynecology)|13|Gynecology|1|744,745
+121|Veginal, Cervical, Or Vulva Repair Surgery (Gynecology)|13|Gynecology|1|747,746
+122|Female Reproductive System Reconstruction (Gynecology)|13|Gynecology|1|748
+123|Other Female Reproductive System Surgery (Gynecology)|13|Gynecology|1|749,750
+124|Cesarean/ C Section (Obstetrics)|14|Obstetrics|1|765,766
+125|O.R. Vaginal Delivery (Obstetrics)|14|Obstetrics|1|767,768
+126|After Birth Or After Abortion Surgery (Obstetrics)|14|Obstetrics|1|769
+127|Abortion With Aspiration Or Hysterectomy (Obstetrics)|14|Obstetrics|1|770
+128|Splene Removal (Hematology)|16|Hematology|1|800,799,801
+129|Other Blood & Blood Forming Organs Surgery (Hematology)|16|Hematology|1|803,802,804
+130|Lymphoma Or Leukemia Major Surgery (Oncology)|17|Oncology|1|821,820,822
+131|Lymphome Or Leukemia With Other Surgeries (Oncology)|17|Oncology|1|824,823,825
+132|Major Myeloproliferative Disorder Surgery (Oncology)|17|Oncology|1|827,826,828
+133|Other Myeloproliferative Disorder Surgery (Oncology)|17|Oncology|1|830,829
+134|Infection Or Parasites Related Surgery (Infections)|18|Infections|1|853,854,855
+135|Post-Op Or Post Trauma Infection Surgery (Infections)|18|Infections|1|857,856,858
+136|Wound Cleaning Surgery (Emergency)|21|Emergency|1|902,901,903
+137|Surgery For Injury Skin Repair Or Replace (Emergency)|21|Emergency|1|904,905
+138|Hand Surgery For Injury (Emergency)|21|Emergency|1|906
+139|Other Surgeries For Injuries (Emergency)|21|Emergency|1|908,907,909
+140|Surgery For Extensive Burns|22|Burns|1|927
+141|Skin Repair Or Replace For Severe Burns|22|Burns|1|928,929
+142|O.R. Procedure For An Udefined Reason|23|Misc|1|940,939,941
+143|Trauma Related Scull Surgery|24|Trauma|1|955
+144|Limb Reattachement For Multiple Trauma|24|Trauma|1|956
+145|Misc. Svere Trauma Related Surgeries|24|Trauma|1|957,958,959
+146|Extensive HIV Related Surgery|25|HIV|1|969,970
+147|Heart Transplant|26|Transplants|1|001,002
+148|Liver Transplant|26|Transplants|1|006
+149|Lung Transplant|26|Transplants|1|007
+150|Simultaneous Pancreas/Kidney Transplant|26|Transplants|1|008
+151|Pancreas Transplant|26|Transplants|1|010
+152|Tracheostomy|26|Transplants|1|012,011,013
+153|Bone Marrow Transplant (Donor Cells)|26|Transplants|1|014
+154|Bone Marrow Transplant (Own Cells)|26|Transplants|1|016,017

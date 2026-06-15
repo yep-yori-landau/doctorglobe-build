@@ -1,0 +1,11 @@
+echo "Creating empty DB"
+mysql -uroot -pp@55word < create_empty_db.sql
+
+echo "Creating generic data"
+mysql -uroot -pp@55word < generic_system_data.sql
+
+echo "Creating Specialties and treatments"
+mysql -uroot -pp@55word < speciality_treatemnt_method.sql
+
+echo "Updating usnews treatment link"
+mysql -uroot -pp@55word < set_us_news_for_treatments.sql

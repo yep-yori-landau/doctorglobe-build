@@ -1,0 +1,14 @@
+# The 2014 CSV file required some work to fit into the java code that consumes it:
+
+# The challange is to keep commas in between quotes. Those should not be replaced.
+# Also, after everything comma are replaced, we need to remvoe quotes (as our Java program that process the file does not care about them):
+
+# Replace comma separtor with vertical bar:
+# cat <input file with comma separator> | sed -e ':a;s/^\(\("[^"]*"\|[^",]*\)*\),/\1|/;ta' > <Output file with vertical bar separator>
+cat Medicare_Provider_Charge_Inpatient_DRGALL_FY2014.csv | sed -e ':a;s/^\(\("[^"]*"\|[^",]*\)*\),/\1|/;ta' > Medicare_DRGALL_FY2014.csv
+
+# Remove quotes:
+$ sed -i 's/\"//g' Medicare_DRGALL_FY2014.csv
+
+# Add $ sign to numbers that represent currency (if needed) (in the example below, after the ninth "|"
+sed -i 's/|/|$/9' Medicare_DRGALL_FY2014.csv

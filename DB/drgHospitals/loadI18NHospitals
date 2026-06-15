@@ -1,0 +1,7 @@
+echo "Insert our international partner hospitals"
+cp i18n_DRG100.csv DRG.csv
+
+java -cp "jars/*" com.dg.drgdataloader.main.DrgLoader 
+
+mysql -uroot -pp@55word < updateInternationalHospitals.sql
+

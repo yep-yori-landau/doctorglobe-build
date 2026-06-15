@@ -1,0 +1,21 @@
+Found 11 Cities in the Database
+Found 0 Hospitals in the Database
+Found 563 entries in the DRG file
+Found 0 Hospital_specialties in the database
+Found 0 Hospital_specialties_treatment_method in the database
+Found 0 Hospital_specialties_treatment_method_practitioner with insurance [Null] in the database
+
+Added 1937 new cities to the DB
+Added 2753 new hospitals to the DB
+Added 12585 new hospital_specialty to the DB
+Added 29794 new hospital_specialty_treatment_method to the DB
+Added 29794 new hospital_specialty_treatment_method_practitioner with insurance [NULL] to the DB
+
+Found 27857 duplicated cities that were already in the DB
+Found 27041 duplicated hospitals that were already in the DB
+Found 17209 duplicated hospital_specialty that were already in the DB
+Found 0 duplicated hospital_specialty_treatment_method that were already in the DB
+Found 0 duplicated hospital_specialty_treatment_method_practitioner that were already in the DB
+Manual entered data for hospitals that don't exist in the AHA file: website, lat, long and a matching hospital for USNEWS if exists
+mysql: [Warning] Using a password on the command line interface can be insecure.
+####  Make sure not to include this in Amazon, as photos need to be purchased !!!!

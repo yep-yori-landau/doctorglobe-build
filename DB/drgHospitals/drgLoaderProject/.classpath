@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="/home/ylandau/DoctorGlobe/Jars/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="/home/ylandau/DoctorGlobe/Jars/mysql-connector-java-5.1.17.jar"/>
+	<classpathentry kind="lib" path="/home/ylandau/DoctorGlobe/Jars/org.apache.commons.lang_2.6.0.v201404270220.jar"/>
+	<classpathentry kind="lib" path="/home/ylandau/DoctorGlobe/Jars/org.springframework.beans_4.2.3.20151116-RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/ylandau/DoctorGlobe/Jars/org.springframework.context_4.2.3.20151116-RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/ylandau/DoctorGlobe/Jars/org.springframework.core_4.2.3.20151116-RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/ylandau/DoctorGlobe/Jars/org.springframework.expression_4.2.3.20151116-RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/ylandau/DoctorGlobe/Jars/org.springframework.jdbc_4.2.3.20151116-RELEASE.jar"/>
+	<classpathentry kind="lib" path="/home/ylandau/DoctorGlobe/Jars/org.springframework.transaction_4.2.3.20151116-RELEASE.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

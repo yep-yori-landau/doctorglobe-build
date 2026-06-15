@@ -1,0 +1,7 @@
+1. Download the Excel file to the drgHospitals directory
+2. Open the file and verify header are the same as last year
+3. Remove all lines above the header
+4. Save file as CSV, use "|" as the delimited character
+5. Modify loadDrgData to use the new file
+6. run loadDrgData
+
